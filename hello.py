@@ -98,6 +98,44 @@ else:
 """
 
 
-
+"""
 x = 17 // 5
 print(x)
+"""
+
+
+"""
+x = int(input("add number: "))
+y = x * x
+print(y)
+"""
+
+
+"""
+x = int(input("add number: "))
+z = 0
+if x >= 20:
+    print("too big")
+else:
+    for y in range(1, x + 1):
+        z = z + y
+    print(z)
+"""
+
+
+"""
+x = int(input("add number 1: "))
+y = int(input("add number 2: "))
+if x > y:
+    print(x)
+else:
+    print(y)
+"""
+
+
+
+x = int(input("add number: "))
+y = 0
+for x in range (0, x + 1):
+    y = x // 2
+    print(y)
