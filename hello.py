@@ -92,6 +92,39 @@ print(x + x)
 """
 
 
-
+"""
 x = int(input("Number: "))
 print(x + x)
+"""
+
+
+"""
+x = 7
+y = 2
+print("sum is", x + y)
+"""
+
+
+"""
+x = 10
+if x > 10:
+    print("A")
+elif x > 5:
+    print("B")
+else:
+    print("C")
+"""
+
+
+"""
+print(9 / 3)
+print(9 / 2)
+print(9 - 2)
+"""
+
+
+
+print(9 // 2)
+print(9 % 2)
+print(10 // 5)
+print(10 % 5)
