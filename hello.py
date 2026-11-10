@@ -123,8 +123,85 @@ print(9 - 2)
 """
 
 
-
+"""
 print(9 // 2)
 print(9 % 2)
 print(10 // 5)
 print(10 % 5)
+"""
+
+
+"""
+print(3 ** 2)
+print(2 + 3 ** 2)
+print((2 + 3) ** 2)
+print(10 - 2 * 3)
+"""
+
+
+"""
+x = 4
+print(x == 4)
+print(x > 10)
+print(x != 4)
+"""
+
+
+"""
+x = 7
+if x > 5:
+    print("big")
+print("done")
+"""
+
+
+"""
+x = 9
+if x > 5:
+    print("big")
+else:
+    print("small")
+print("done")
+"""
+
+
+"""
+x = 10
+if x > 8:
+    print("high")
+elif x > 3:
+    print("middle")
+else:
+    print("low")
+"""
+
+
+"""
+x = 7
+print( x > 5 and x < 10)
+print(x > 5 and x < 6)
+print(x > 100 or x < 8)
+"""
+
+
+"""
+x = 2
+while x < 6:
+    print(x)
+    x = x + 2
+print("end")
+"""
+
+
+"""
+for i in range (4):
+    print(i * 2)
+print("end")
+"""
+
+
+"""
+for i in range(1, 4):
+    print(i * i)
+print("end")
+"""
