@@ -205,3 +205,82 @@ for i in range(1, 4):
     print(i * i)
 print("end")
 """
+
+
+"""
+x = 0
+for i in range(1, 5):
+    x = x + i
+print(x)
+"""
+
+
+"""
+for i in range (1, 5):
+    print("round", i)
+    if i % 2 == 0:
+        print(i)
+print("end")
+"""
+
+
+"""
+x = int(input("number: "))
+for i in range(1, x + 1):
+    if i % 2 == 0:
+        print(i)
+"""
+
+
+"""
+def hello():
+    print("hi")
+
+hello()
+hello()
+"""
+
+
+"""
+def hello():
+    print("hi")
+
+print("start")
+hello()
+print("end")
+"""
+
+
+"""
+def show(x):
+    print(x * 2)
+
+show(5)
+show(7)
+"""
+
+
+"""
+def show(x):
+    print(x + 1)
+
+show(3)
+show(10)
+"""
+
+
+"""
+def double(x):
+    return x * 2
+
+print(double(5))
+"""
+
+
+
+def add_one(x):
+    return x + 1
+
+y = add_one(4)
+print(y)
+print(add_one(10))
