@@ -277,10 +277,20 @@ print(double(5))
 """
 
 
-
+"""
 def add_one(x):
     return x + 1
 
 y = add_one(4)
 print(y)
 print(add_one(10))
+"""
+
+
+
+def triple(x):
+    return x * 3
+    
+y = triple(4)
+print(triple(4))
+print(triple(10))
