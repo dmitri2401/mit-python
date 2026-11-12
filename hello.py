@@ -287,10 +287,105 @@ print(add_one(10))
 """
 
 
-
+"""
 def triple(x):
     return x * 3
     
 y = triple(4)
 print(triple(4))
 print(triple(10))
+"""
+
+
+"""
+nums = [4, 7, 9]
+print(nums)
+print(nums[0])
+"""
+
+
+"""
+nums = [4, 7, 9]
+print(nums[1])
+print(nums[2])
+"""
+
+
+"""
+nums = [4, 7, 9]
+for n in nums:
+    print(n + 1)
+"""
+
+
+"""
+nums = [2, 5, 8, 1]
+for n in nums:
+    print(n * 2)
+print("end")
+"""
+
+
+"""
+nums = [4, 7]
+nums.append(9)
+print(nums)
+"""
+
+
+"""
+nums = []
+for i in range(3):
+    nums.append(i * 10)
+print(nums)
+"""
+
+
+"""
+nums = []
+for i in range(1, 5):
+    nums.append(i * i)
+print(nums)
+"""
+
+
+"""
+nums = [4, 7, 9]
+print(len(nums))
+"""
+
+
+"""
+nums = [5, 8, 2, 6, 1]
+print(len(nums))
+print(len(nums) * 2)
+print(nums[len(nums) - 1])
+"""
+
+
+"""
+def show_all(nums):
+    for n in nums:
+        print(n + 1)
+
+show_all([4, 7, 9])
+"""
+
+
+"""
+def show_all(nums):
+    for n in nums:
+        print(n * 2)
+
+show_all([1, 5])
+show_all([10, 20, 30])
+"""
+
+
+
+def count_even(nums):
+    if n in nums:
+        n % 2 == 0
+    return n
+
+print(n)
