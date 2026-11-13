@@ -382,10 +382,43 @@ show_all([10, 20, 30])
 """
 
 
+"""
+nums = [3, 8, 5, 10, 6]
+count_even = []
+for x in nums:
+    if x % 2 == 0:
+        count_even.append(x)
+
+print(len(count_even))
+"""
+
+
+"""
+def count_even(x):
+    return x % 2 == 0
+
+nums = [3, 8, 5, 10, 6]
+collected = []
+
+for x in nums:
+    if count_even(x):
+        collected.append(nums)
+
+print(len(collected))
+"""
+
+
 
 def count_even(nums):
-    if n in nums:
-        n % 2 == 0
-    return n
+    collected = []
+    for x in nums:
+        if x % 2 == 0:
+            collected.append(x)
+    print(len(collected))
+    print(collected)
+    return collected
 
-print(n)
+result = count_even([3, 8, 5, 10, 6])
+
+print(len(result))
+print(result)

@@ -39,6 +39,12 @@ print("Score:", score)
 """
 
 
-
+"""
 x = 5
 print(x > 3)
+"""
+
+nums = []
+for i in range(1, 5):
+    nums.append(i * i)
+print(nums)
