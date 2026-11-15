@@ -16,4 +16,3 @@ if elif else create conditions
 for a loop goes through each element in a collection one by one
 range(3) gives values 0, 1, 2 (starts at 0, stops before 3)
 
-total starts at 0, and each pass adds the current value to it

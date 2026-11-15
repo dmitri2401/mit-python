@@ -44,7 +44,20 @@ x = 5
 print(x > 3)
 """
 
+
+"""
 nums = []
 for i in range(1, 5):
     nums.append(i * i)
 print(nums)
+"""
+
+
+"""
+nums = [3, 8, 5]
+for x in nums:
+    print("Current x is", x)
+"""
+
+
+

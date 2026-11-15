@@ -408,17 +408,93 @@ print(len(collected))
 """
 
 
-
+"""
 def count_even(nums):
     collected = []
     for x in nums:
         if x % 2 == 0:
             collected.append(x)
-    print(len(collected))
-    print(collected)
     return collected
 
 result = count_even([3, 8, 5, 10, 6])
 
 print(len(result))
 print(result)
+"""
+
+
+"""
+def total_of(nums):
+    y = 0
+    for x in nums:
+        y = y + x
+    return y
+
+result = total_of([4, 7, 9])
+print(result)
+"""
+
+
+"""
+def count_numbers(line):
+    sum = 0
+    for x in line:
+        if x > 5:
+            sum = sum + x
+    return sum
+
+result = count_numbers([3, 8, 5, 10, 6])
+print(result)
+"""
+
+
+"""
+def how_many(total):
+    collected = []
+    for x in total:
+        if x > 5:
+            collected.append(x)
+    return collected
+
+result = how_many([3, 8 , 5, 10, 6])
+print(len(result))
+"""
+
+
+"""
+def new_value(nums):
+    doubled = []
+    for x in nums:
+        x = x * 2
+        doubled.append(x)
+    return doubled
+
+result = new_value([3, 8, 5, 10, 6])
+print(result)
+"""
+
+
+"""
+def add_even(nums):
+    y = 0
+    for x in nums:
+        if x % 2 == 0:
+            y = y + x
+    return y
+
+result = add_even([2, 7, 4, 9, 6])
+print(result)
+"""
+
+
+
+def mult_numbers(nums):
+    doubled = []
+    for x in nums:
+        if x > 5:
+            x = x * 2
+            doubled.append(x)
+    return doubled
+
+result = mult_numbers([4, 9, 2, 7, 12])
+print("This is the doubled list", result)
