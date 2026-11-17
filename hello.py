@@ -487,7 +487,7 @@ print(result)
 """
 
 
-
+"""
 def mult_numbers(nums):
     doubled = []
     for x in nums:
@@ -498,3 +498,66 @@ def mult_numbers(nums):
 
 result = mult_numbers([4, 9, 2, 7, 12])
 print("This is the doubled list", result)
+"""
+
+
+"""
+def biggest(nums):
+    y = nums[0]
+    for x in nums:
+        if x > y:
+            y = x
+    return y
+
+result = biggest([4, 17, 9, 12])
+print(result)
+"""
+
+
+"""
+def new_values(nums):
+    collected = []
+    for x in nums:
+        if x >= 10 and x <= 20:
+            collected.append(x)
+    return collected
+
+result = new_values([5, 10, 15, 20, 12])
+print(result)
+"""
+
+
+"""
+x = int(input("Number: "))
+y = 0
+for z in range(x):
+    if z % 3 == 0 or z % 5 == 0:
+       y = y + z
+print(y)
+"""
+
+
+"""
+def how_many(nums):
+    collected = []
+    for x in nums:
+        if x % 2 == 0 and x > 10:
+            collected.append(x)
+    return collected
+
+result = how_many([4, 12, 15, 20, 8, 30, 11])
+print(len(result))
+"""
+
+
+"""
+box = 0
+x = 0
+while box <= 50:
+    x = x + 1
+    box = box + x
+print(x)
+"""
+
+
+
