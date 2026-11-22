@@ -560,4 +560,29 @@ print(x)
 """
 
 
+"""
+def list_replace(nums):
+    replaced = []
+    for x in range(len(nums)):
+        if x % 2 == 0:
+            replaced.append(nums[x])
+    return replaced
 
+result = list_replace([5, 6, 7, 8, 9])
+print(result)
+"""
+
+
+
+def is_even(x):
+    return x % 2 == 0
+
+def count_even(nums):
+    y = 0
+    for x in nums:
+        if is_even(x):
+            y = y + 1
+    return y
+
+result = count_even([1, 2, 3, 4, 6])
+print(result)
