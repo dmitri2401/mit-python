@@ -573,7 +573,7 @@ print(result)
 """
 
 
-
+"""
 def is_even(x):
     return x % 2 == 0
 
@@ -585,4 +585,80 @@ def count_even(nums):
     return y
 
 result = count_even([1, 2, 3, 4, 6])
+print(result)
+"""
+
+
+"""
+def smallest(nums):
+    y = nums[0]
+    for x in nums:
+        if x < y:
+           y = x
+    return y
+
+result = smallest([4, 17, 9, 12])
+print(result)
+"""
+
+
+"""
+def biggest(nums):
+    y = nums[0]
+    for x in nums:
+        if x > y:
+            y = x
+    return y
+
+result = biggest([-5, -3, -8])
+print(result)
+"""
+
+
+"""
+def minus(nums):
+    y = nums[0]
+    z = nums[0]
+    for x in nums:
+        if x > y:
+            y = x
+        elif x < z:
+            z = x
+    return y - z
+
+result = minus([4, 17, 9, 12])
+print(result)
+"""
+
+
+"""
+def smallest(nums):
+    y = nums[0]
+    for x in nums:
+        if x < y:
+            y = x
+    return y
+
+result = smallest([50, 20, 80, 20])
+print(result)
+"""
+
+
+
+def biggest(nums):
+    y = nums[0]
+    for x in nums:
+        if x > y:
+            y = x
+    return y
+
+def smallest(nums):
+    z = nums[0]
+    for x in nums:
+        if x < z:
+            z = x
+    return z
+
+x = [6, 2, 9, 4]
+result = biggest(x) - smallest(x)
 print(result)
